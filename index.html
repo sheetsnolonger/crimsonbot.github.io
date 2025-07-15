@@ -1,34 +1,41 @@
-    <a href="#about">about</a>
-    <a href="#portfolio">portfolio</a>
-    <a href="#contact">contact</a>
-  </nav>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>victoria tennis – portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>hey, my names victoria and i make websites, discord bots, and beats.</p>
-  </section>
+    body {
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+      line-height: 1.6;
+    }
 
-  <section id="portfolio">
-    <h2>my work</h2>
-    <ul>
-      <li><a href="https://discord.com/oauth2/authorize?client_id=1394058911388143647" target="_blank">entity bot</a></li>
-      <li><a href="https://discord.com/oauth2/authorize?client_id=1393961402242433104" target="_blank">crimson</a></li>
-      <li><a href="https://open.spotify.com/artist/4IfSd4bm03gUiLY7ckdAPA?si=XK0nJ_VUT2CPq8CLnTQ4Jw" target="_blank">shoegaze project</a></li>
-    </ul>
-  </section>
+    nav {
+      background-color: #111;
+      padding: 12px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px;
+    }
 
-  <section id="contact">
-    <h2>contact</h2>
-    <p>reach me at: <a href="mailto:sheetsnolonger@gmail.com">sheetsnolonger@gmail.com</a></p>
-    <p>or find me on social media:</p>
-    <ul>
-      <li><a href="https://twitter.com/entitybott" target="_blank">twt</a></li>
-    </ul>
-  </section>
+    nav a,
+    .dropbtn {
+      color: #fff;
+      text-decoration: none;
+      padding: 8px 12px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
 
-  <footer>
-    <p>&copy; 2025 victoria tennis. All rights reserved.</p>
-  </footer>
-
-</body>
-</html>
+    .dropbtn:hover,
